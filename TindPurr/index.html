@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TinPurr</title>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/1d91b8bad6.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BootStrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- StyleSheet-->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid fl-1">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">
+            <i class="fa-solid fa-fire-flame-curved"></i> TinPurr</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Title -->
+        <div class="row title-row">
+          <div class="col text-center">
+            <h1>Meet new and interesting cats nearby.</h1>
+            <button class="apple btn btn-dark btn-lg dl-btn" type="button">
+              <i class="fa-brands fa-apple"></i> Download
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg dl-btn">
+              <i class="fa-brands fa-google-play"></i> Download
+            </button>
+          </div>
+
+          <div class="img--col col-lg-6">
+            <img
+              class="title-img"
+              src="images/Untitled design.svg"
+              alt="iphone-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features -->
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-paw fa-4x"></i>
+            <h3>Easy to use.</h3>
+            <p>So easy to use, even your cat could do it.</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-cat fa-4x"></i>
+            <h3>Elite Clientele</h3>
+            <p>We have all the cats, the greatest cats.</p>
+          </div>
+
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-heart fa-4x"></i>
+            <h3>Guaranteed to work.</h3>
+            <p>Find the love of your cat's life.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <div class="container">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2 class="testimonial-text">
+                I no longer have to be in heat for days. I've found the hottest
+                cat on TinPurr. Meow.
+              </h2>
+              <img src="images/bubbla.png" class="testimonial-img" />
+              <em>Búbbla, Iceland</em>
+            </div>
+
+            <div class="carousel-item">
+              <h2 class="testimonial-text">
+                My cat used to be so lonely, but with TinPurr's help, they've
+                found love.
+              </h2>
+              <img src="/images/lady-img.jpg" class="testimonial-img" />
+              <em>Selma, France</em>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pres
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <div class="container">
+        <h2>A Plan for Every Cats's Needs</h2>
+        <p>Simple and affordable price plans for your and your cat.</p>
+        <div class="row">
+          <div class="price-col col col-lg-4 col-md-6">
+            <div class="card shadow-sm text-center">
+              <div class="card-header">
+                <h3>Kitten</h3>
+              </div>
+              <div class="card-body">
+                <h2>Free</h2>
+                <p>5 Matches Per Day</p>
+                <p>10 Messages Per Day</p>
+                <p>Unlimited App Usage</p>
+                <p>&nbsp;</p>
+                <button
+                  class="btn btn-lg col-12 btn-outline-dark"
+                  type="button"
+                >
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="price-col col-lg-4 col-md-6">
+            <div class="card shadow-sm text-center">
+              <div class="card-header">
+                <h3>Cheetah</h3>
+              </div>
+              <div class="card-body">
+                <h2>49$ / mo</h2>
+                <p>Unlimited Matches</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <p>&nbsp;</p>
+                <button class="btn btn-lg col-12 btn-dark" type="button">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="price-col col col-lg-4">
+            <div class="card shadow-lg text-center">
+              <div class="card-header">
+                <h3>Lion</h3>
+              </div>
+              <div class="card-body">
+                <h2>99$ / mo</h2>
+                <p>Priority Listings</p>
+                <p>Unlimited Matches</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+
+                <button class="btn btn-lg col-12 btn-dark" type="button">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <div class="container">
+        <div class="col-12 text-center">
+          <h3 class="cta-text">Find the True Love of Your Cat's Life Today.</h3>
+        </div>
+        <div class="col-12 text-center mt-4">
+          <button class="apple btn btn-dark btn-lg" type="button">
+            <i class="fa-brands fa-apple"></i> Download
+          </button>
+          <button type="button" class="btn btn-outline-light btn-lg">
+            <i class="fa-brands fa-google-play"></i> Download
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <div class="container text-center p-5">
+        <p>© Copyright TinPurr</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
